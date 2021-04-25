@@ -83,33 +83,38 @@ public class GradeSchoolTests
 
 public class GradeSchool
 {
-    Dictionary<string, int> students;
+    readonly Dictionary<string, int> _students;
     public GradeSchool()
     {
-       students = new Dictionary<string, int>();
+       _students = new Dictionary<string, int>();
 
     }
     public void Add(string student, int grade)
     {
-        students.Add(student,grade);
+        _students.Add(student,grade);
     }
 
     public IEnumerable<string> Roster()
     {
-        IOrderedEnumerable<KeyValuePair<string, int>> orderedStudents = students
-                                                                        .OrderBy(x => x.Value)
-                                                                        .ThenBy(x => x.Key);
-
-        return  (from kvp in orderedStudents select kvp.Key).ToArray(); 
-        
+        return  (from studentGradePair in GetOrderedStudents() select studentGradePair.Key).ToArray();
     }
 
-    public IEnumerable<string> Grade(int grade)
+    private IOrderedEnumerable<KeyValuePair<string, int>> GetOrderedStudents()
     {
-        IOrderedEnumerable<KeyValuePair<string, int>> orderedStudents = students
-            .Where(x=>x.Value == grade)
-            .OrderBy(x => x.Key);
+        return _students
+               .OrderBy(x => x.Value)
+               .ThenBy(x => x.Key);
+    }
 
-        return (from kvp in orderedStudents select kvp.Key).ToArray();
+    public IEnumerable<string> Grade(int grade) 
+    {
+        return (from studentGradePair in GetOrderedStudentsForGrade(grade) select studentGradePair.Key).ToArray();
+    }
+
+    private IOrderedEnumerable<KeyValuePair<string, int>> GetOrderedStudentsForGrade(int grade)
+    {
+        return _students
+               .Where(x => x.Value == grade)
+               .OrderBy(x => x.Key);
     }
 }
