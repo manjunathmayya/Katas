@@ -71,6 +71,7 @@
     <Compile Include="Clock.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="Gigasecond.cs" />
+    <Compile Include="GradeSchool.cs" />
     <Compile Include="Grep.cs" />
     <Compile Include="LeapYear.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
