@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BankAccount.cs" />
+    <Compile Include="ChristmasTree.cs" />
     <Compile Include="Clock.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="Gigasecond.cs" />
