@@ -232,18 +232,24 @@ class TeamCollection
 
     public string GetPointsTable()
     {
-        var orderedTeams = Teams
-                                                    .OrderByDescending(x => x.Value.points)
-                                                    .ThenBy(x=>x.Key)
-                                                    .ToDictionary(pair => pair.Key);
+        var orderedTeams = GetOrderdTeams();
 
         string pointsTableString = "";
         foreach (var team in orderedTeams)
         {
             pointsTableString += "\n";
-            pointsTableString +=  Teams[team.Key].Score();
+            pointsTableString +=  team.Value.Score();
         }
         return pointsTableString;
+    }
+
+    private Dictionary<string,  Team> GetOrderdTeams()
+    {
+        var orderedTeams = Teams
+            .OrderByDescending(x => x.Value.points)
+            .ThenBy(x => x.Key)
+            .ToDictionary(x => x.Key, x => x.Value);
+        return orderedTeams;
     }
 }
 public static class Tournament
