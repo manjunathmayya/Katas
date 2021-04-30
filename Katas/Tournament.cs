@@ -215,13 +215,13 @@ class TeamCollection
 
     public void UpdatePoints(string teamName, string result)
     {
-        CreateTeamIfNotAlreadyPresentInCollection(teamName);
+        CreateTeamIfNotAlreadyInCollection(teamName);
 
         Team teamToBeUpdated = Teams[teamName];
         teamToBeUpdated.UpdatePoints(result);
     }
 
-    private void CreateTeamIfNotAlreadyPresentInCollection(string teamName)
+    private void CreateTeamIfNotAlreadyInCollection(string teamName)
     {
         if (!Teams.Keys.Contains(teamName))
         {
@@ -232,18 +232,18 @@ class TeamCollection
 
     public string GetPointsTable()
     {
-        var tempTeams = Teams
+        var orderedTeams = Teams
                                                     .OrderByDescending(x => x.Value.points)
                                                     .ThenBy(x=>x.Key)
                                                     .ToDictionary(pair => pair.Key);
 
-        string returnString = "";
-        foreach (var team in tempTeams)
+        string pointsTableString = "";
+        foreach (var team in orderedTeams)
         {
-            returnString += "\n";
-            returnString +=  Teams[team.Key].Score();
+            pointsTableString += "\n";
+            pointsTableString +=  Teams[team.Key].Score();
         }
-        return returnString;
+        return pointsTableString;
     }
 }
 public static class Tournament
@@ -253,13 +253,12 @@ public static class Tournament
         StreamWriter sWriter = new StreamWriter(outStream);
         sWriter.Write("Team                           | MP |  W |  D |  L |  P");
 
-        TeamCollection teams = new TeamCollection();
-
-        var encoding = new UTF8Encoding();
-        string rows= encoding.GetString(((MemoryStream) inStream).ToArray());
+        var rows = GetDataFromStream(inStream);
 
         if (rows != "")
         {
+            TeamCollection teams = new TeamCollection();
+
             string [] matches = rows.Split('\n');
 
             foreach (var match in matches)
@@ -271,6 +270,13 @@ public static class Tournament
         }
         //outStream.Position = 0L; 
         sWriter.Close();
+    }
+
+    private static string GetDataFromStream(Stream inStream)
+    {
+        var encoding = new UTF8Encoding();
+        string rows = encoding.GetString(((MemoryStream) inStream).ToArray());
+        return rows;
     }
 
     private static void UpdatePointsForMatch(string match, TeamCollection teams)
