@@ -193,12 +193,18 @@ class Team
 
     public void UpdatePoints(string result)
     {
-        if (result == "win")
-            win += 1;
-        else if (result == "loss")
-            loss += 1;
-        else
-            draw += 1;
+        switch (result)
+        {
+            case "win":
+                win += 1;
+                break;
+            case "loss":
+                loss += 1;
+                break;
+            default:
+                draw += 1;
+                break;
+        }
 
         points = win * 3 + draw;
     }
@@ -216,9 +222,7 @@ class TeamCollection
     public void UpdatePoints(string teamName, string result)
     {
         CreateTeamIfNotAlreadyInCollection(teamName);
-
-        Team teamToBeUpdated = Teams[teamName];
-        teamToBeUpdated.UpdatePoints(result);
+        Teams[teamName].UpdatePoints(result);
     }
 
     private void CreateTeamIfNotAlreadyInCollection(string teamName)
@@ -232,7 +236,7 @@ class TeamCollection
 
     public string GetPointsTable()
     {
-        var orderedTeams = GetOrderdTeams();
+        var orderedTeams = GetOrderedTeams();
 
         string pointsTableString = "";
         foreach (var team in orderedTeams)
@@ -243,7 +247,7 @@ class TeamCollection
         return pointsTableString;
     }
 
-    private Dictionary<string,  Team> GetOrderdTeams()
+    private Dictionary<string,  Team> GetOrderedTeams()
     {
         var orderedTeams = Teams
             .OrderByDescending(x => x.Value.points)
@@ -274,7 +278,6 @@ public static class Tournament
 
             sWriter.Write(teams.GetPointsTable());
         }
-        //outStream.Position = 0L; 
         sWriter.Close();
     }
 
@@ -300,8 +303,8 @@ public static class Tournament
                 break;
 
             case "loss":
-                teams.UpdatePoints(team2, "win");
                 teams.UpdatePoints(team1, "loss");
+                teams.UpdatePoints(team2, "win");
                 break;
 
             case "draw":
