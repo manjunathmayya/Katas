@@ -154,6 +154,11 @@ namespace Katas
             LinesOfPoem.Add("the horse and the hound and the horn that belonged to");
         }
 
+        /// <summary>
+        /// Recite the verse
+        /// </summary>
+        /// <param name="verseNumber"></param>
+        /// <returns></returns>
         public static string Recite(int verseNumber)
         {
             string verse = "This is";
