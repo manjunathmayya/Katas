@@ -173,7 +173,7 @@ namespace Katas
         }
 
         /// <summary>
-        /// Recite from start verse to end verse
+        /// Recite from start verse to end verse.
         /// </summary>
         /// <param name="startVerse"></param>
         /// <param name="endVerse"></param>
