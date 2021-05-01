@@ -172,6 +172,12 @@ namespace Katas
 
         }
 
+        /// <summary>
+        /// Recite from start verse to end verse
+        /// </summary>
+        /// <param name="startVerse"></param>
+        /// <param name="endVerse"></param>
+        /// <returns></returns>
         public static string Recite(int startVerse, int endVerse)
         {
             string poem = "";
