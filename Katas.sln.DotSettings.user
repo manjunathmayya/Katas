@@ -1,6 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=aacc4af2_002Dc472_002D4e09_002Dabcc_002Dfecca2ef8243/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Just_the_header_if_no_input" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=57453736_002D3ebc_002D4864_002Db704_002D4bf89b744aed/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Solution /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a114eb68_002D08e9_002D4061_002D984e_002D85829fce5953/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Triplets_whose_sum_is_12" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::TournamentTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::PythagoreanTripletTests.Triplets_whose_sum_is_12&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>

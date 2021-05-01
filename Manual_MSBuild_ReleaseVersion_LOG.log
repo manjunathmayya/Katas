@@ -1,0 +1,28 @@
+Build started 01-May-21 8:00:46 PM.
+__________________________________________________
+Project "E:\CodingDojo\exercises\kata\csharp\Katas\Katas.sln" (default targets):
+
+Target ValidateSolutionConfiguration:
+    Building solution configuration "Release|Any CPU".
+Target Build:
+    __________________________________________________
+    Project "E:\CodingDojo\exercises\kata\csharp\Katas\Katas.sln" is building "E:\CodingDojo\exercises\kata\csharp\Katas\Katas\Katas.csproj" (default targets):
+
+    Target GenerateBindingRedirects:
+        No suggested binding redirects from ResolveAssemblyReferences.
+    Target GenerateTargetFrameworkMonikerAttribute:
+      Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+    Target CoreCompile:
+      Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+    Target _CopyOutOfDateSourceItemsToOutputDirectory:
+      Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+    Target _CopyAppConfigFile:
+      Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+    Target CopyFilesToOutputDirectory:
+        Katas -> E:\CodingDojo\exercises\kata\csharp\Katas\Katas\bin\Release\Nunit_2015.exe
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.30

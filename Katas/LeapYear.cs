@@ -10,7 +10,7 @@ namespace Katas
     }
 
     [TestFixture]
-    public class KataTest
+    public class LeapYearTest
     {
         [TestCase( 2020, true)]
         [TestCase( 2021, false)]
