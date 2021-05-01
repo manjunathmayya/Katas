@@ -74,6 +74,7 @@
     <Compile Include="Gigasecond.cs" />
     <Compile Include="GradeSchool.cs" />
     <Compile Include="Grep.cs" />
+    <Compile Include="House.cs" />
     <Compile Include="LeapYear.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Proverb.cs" />
