@@ -92,6 +92,7 @@
     <Compile Include="SimpleLinkedList.cs" />
     <Compile Include="Tennis.cs" />
     <Compile Include="Tournament.cs" />
+    <Compile Include="TwoBucket.cs" />
     <Compile Include="TwoFer.cs" />
   </ItemGroup>
   <ItemGroup>
