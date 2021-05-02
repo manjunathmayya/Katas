@@ -87,6 +87,7 @@
     <Compile Include="Proverb.cs" />
     <Compile Include="PythagoreanTriplet.cs" />
     <Compile Include="ResistorColor.cs" />
+    <Compile Include="RobotName.cs" />
     <Compile Include="SimpleLinkedList.cs" />
     <Compile Include="Tennis.cs" />
     <Compile Include="Tournament.cs" />
