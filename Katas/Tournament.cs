@@ -213,6 +213,9 @@ namespace Katas
         }
     }
 
+    /// <summary>
+    /// Class to hold collection of teams
+    /// </summary>
     class TeamCollection
     {
         public Dictionary<string, Team> Teams;
