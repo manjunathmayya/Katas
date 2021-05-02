@@ -1,0 +1,119 @@
+[33mcommit 9f710d9db3ddec3741f7f00f10be543c934488e2[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Sun May 2 14:09:55 2021 +0530
+
+    Refactored RobotName Kata to improve speed of generating Robots in quick succession
+
+[33mcommit 2ed23bea1215ebef3c25336b809130f5023780b2[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Sun May 2 13:24:28 2021 +0530
+
+    Completed RobotName Kata
+
+[33mcommit f849f5de5a513c56b8f7ac727aa30e8eba564771[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Sun May 2 12:19:21 2021 +0530
+
+    Commit to test Jenkins job autorun
+
+[33mcommit b49885ec34e0ea050d47deb943f676bffbd018a0[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Sun May 2 00:12:39 2021 +0530
+
+    Commit to test Jenkins job autorun
+
+[33mcommit 8f6c2a76d7cacc4c0f0f5c6cff82a532be9ec150[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Sun May 2 00:08:42 2021 +0530
+
+    Commit to test Jenkins job autorun
+
+[33mcommit ca07aa19cb260a1259b973ef7555aaff063a9683[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Sat May 1 23:53:45 2021 +0530
+
+    Commit to test Jenkins job autorun
+
+[33mcommit 52e303a5bb849234095d043a22c3938a1f30c040[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Sat May 1 23:41:42 2021 +0530
+
+    Commit to test Jenkins job autorun
+
+[33mcommit a4645120d428b68529555a78e8a578c1d32752c6[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Sat May 1 23:36:34 2021 +0530
+
+    Commit to test Jenkins job autorun
+
+[33mcommit d52aaaab88a1b13efc4aa23c2cb49c9f97be18b4[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Sat May 1 23:12:47 2021 +0530
+
+    Namespace updated for all Katas to Katas
+
+[33mcommit dfae77f57e7fb2629beb43df79dcf631136cf8f5[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Sat May 1 15:24:56 2021 +0530
+
+    Completed House Kata
+
+[33mcommit 33ceedebd9a2473ee10e4cccacc46abf9f45ada4[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Sat May 1 14:38:07 2021 +0530
+
+    First version of PythogoreanTriplet Kata
+
+[33mcommit fb5d546ac2c7d3570f3e442693dc16e884fd8e63[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Fri Apr 30 15:05:11 2021 +0530
+
+    Refactored Tournament Kata
+
+[33mcommit fe3adbb2070d9a0218c74657dd96607434e3aa1a[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Fri Apr 30 13:02:00 2021 +0530
+
+    Refactored Tournmant Kata
+
+[33mcommit 56d97b51ed0cf9843be33cd54621b2ba754f22c0[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Fri Apr 30 10:22:52 2021 +0530
+
+    Completed Tournment Kata
+
+[33mcommit b5c9e98a050d0541e215a4f31f61fa03b99964b5[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Fri Apr 30 10:03:24 2021 +0530
+
+    Completed Tournment Kata
+
+[33mcommit fceed4e98f03d151baa25c018a98e5ae97b6b31d[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Wed Apr 28 19:55:08 2021 +0530
+
+    First version of Tennis Kata
+
+[33mcommit a972f62610195ff3c55485cda3de400240aff146[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Wed Apr 28 19:47:25 2021 +0530
+
+    First version of Tennis Kata
+
+[33mcommit 1bb8111b2715288ee7d62005af75bc9f681730b0[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Sun Apr 25 18:45:18 2021 +0530
+
+    GradeSchool kata refactored
+
+[33mcommit ce8c3c59309313ebf98d21706a582dee942a9850[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Sun Apr 25 17:50:46 2021 +0530
+
+    Grade kata completed
+
+[33mcommit 80ad8428d1aac923ae392cd33e04b2f2e5e05368[m
+Author: Manjunath K <manjunathmayya@gmail.com>
+Date:   Sun Apr 25 16:57:01 2021 +0530
+
+    Initial checkin of Katas

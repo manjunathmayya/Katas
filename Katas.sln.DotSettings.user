@@ -1,11 +1,7 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=57453736_002D3ebc_002D4864_002Db704_002D4bf89b744aed/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.RobotNameTests.Name_is_the_same_each_time&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.RobotNameTests.Different_robots_have_different_names&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.RobotNameTests.Can_reset_the_name&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.RobotNameTests.After_reset_the_name_is_valid&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.RobotNameTests.Robot_names_are_unique&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.HammingTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	
