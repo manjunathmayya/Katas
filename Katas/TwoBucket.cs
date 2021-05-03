@@ -181,7 +181,7 @@ namespace Katas
 
         private void CalculateBucketValuesForCurrentMove(int goal, ref int startBucketCurrentValue, ref int otherBucketCurrentValue, int startBucketCapacity, int otherBucketCapacity)
         {
-            if (startBucketCurrentValue == 0 && otherBucketCurrentValue == 0)
+            if (AreBothBucketsEmpty(startBucketCurrentValue, otherBucketCurrentValue))
             {
                 startBucketCurrentValue = startBucketCapacity;
                 otherBucketCurrentValue = 0;
@@ -240,5 +240,9 @@ namespace Katas
             }
         }
 
+        private static bool AreBothBucketsEmpty(int startBucketCurrentValue, int otherBucketCurrentValue)
+        {
+            return startBucketCurrentValue == 0 && otherBucketCurrentValue == 0;
+        }
     }
 }
