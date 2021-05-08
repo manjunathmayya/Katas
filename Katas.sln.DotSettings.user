@@ -7,6 +7,9 @@
     &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.TwoBucketTests.Measure_using_bucket_one_of_size_7_and_bucket_two_of_size_11_start_with_bucket_two&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.TwoBucketTests.Measure_one_step_using_bucket_one_of_size_1_and_bucket_two_of_size_3_start_with_bucket_two&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.TwoBucketTests.Measure_using_bucket_one_of_size_2_and_bucket_two_of_size_3_start_with_bucket_one_and_end_with_bucket_two&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.FizzBuzzTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.HikerTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.RecentlyUsedListTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	
