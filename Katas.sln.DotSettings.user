@@ -10,6 +10,7 @@
     &lt;TestId&gt;NUnit3x::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.FizzBuzzTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.HikerTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.RecentlyUsedListTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.FactorizeTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	
