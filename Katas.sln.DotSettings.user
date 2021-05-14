@@ -1,23 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=57453736_002D3ebc_002D4864_002Db704_002D4bf89b744aed/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7e85981e_002D5b12_002D4c8b_002D80f8_002De8058f582988/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="WordWrapTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.TwoBucketTests.Measure_using_bucket_one_of_size_3_and_bucket_two_of_size_5_start_with_bucket_one&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.TwoBucketTests.Measure_using_bucket_one_of_size_3_and_bucket_two_of_size_5_start_with_bucket_two&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.TwoBucketTests.Measure_using_bucket_one_of_size_7_and_bucket_two_of_size_11_start_with_bucket_one&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.TwoBucketTests.Measure_using_bucket_one_of_size_7_and_bucket_two_of_size_11_start_with_bucket_two&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.TwoBucketTests.Measure_one_step_using_bucket_one_of_size_1_and_bucket_two_of_size_3_start_with_bucket_two&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.TwoBucketTests.Measure_using_bucket_one_of_size_2_and_bucket_two_of_size_3_start_with_bucket_one_and_end_with_bucket_two&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.FizzBuzzTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.HikerTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.RecentlyUsedListTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.FactorizeTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::Katas.WordWrapTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	
-	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a114eb68_002D08e9_002D4061_002D984e_002D85829fce5953/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Triplets_whose_sum_is_12" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::5EE4200E-070E-43BA-A9D9-F7AF109E4A0E::.NETFramework,Version=v4.5.2::PythagoreanTripletTests.Triplets_whose_sum_is_12&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	</wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

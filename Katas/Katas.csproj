@@ -97,6 +97,7 @@
     <Compile Include="Tournament.cs" />
     <Compile Include="TwoBucket.cs" />
     <Compile Include="TwoFer.cs" />
+    <Compile Include="WordWrap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
