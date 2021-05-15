@@ -20,7 +20,7 @@ namespace Katas
             Assert.Equal("Whoa, chill out!", Bob.Response("WATCH OUT!"));
         }
 
-        [Fact]
+        [Fact(Skip = "Remove this Skip property to run this test")]
         public void Shouting_gibberish()
         {
             Assert.Equal("Whoa, chill out!", Bob.Response("FCECDFCAAB"));
