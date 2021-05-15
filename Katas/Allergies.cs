@@ -393,19 +393,15 @@ namespace Katas
             return ((_mask & Convert.ToInt32(allergen)) > 0);
         }
 
-        public Allergen[] List()
+        public IEnumerable<Allergen> List()
         {
-            List<Allergen> allergens = new List<Allergen>();
-
-            foreach (Allergen allergen in (Allergen[])Enum.GetValues(typeof(Allergen)))
+            foreach (Allergen allergen in Enum.GetValues(typeof(Allergen)))
             {
                 if (IsAllergicTo(allergen))
                 {
-                    allergens.Add(allergen);
+                    yield return allergen;
                 }
             }
-
-            return allergens.ToArray();
         }
     }
 }
