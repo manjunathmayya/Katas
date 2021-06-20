@@ -34,7 +34,6 @@ namespace Katas
         [TestCase("areallylongword followed by short word", 6, "areall\nylongw\nord fo\nllowed\nby\nshort\nword")]
         public void test_wordwrap(string input_string, int width, string expected)
         {
-            // a simple example to start you off       
             Assert.AreEqual(expected, word_wrap(input_string, width));
         }
 
@@ -49,14 +48,14 @@ namespace Katas
 
             string[] words = input_string.Split(' ');
 
-            for (int index = 0; index < words.Length; index++)
+            for (int word_count = 0; word_count < words.Length; word_count++)
             {
-                string word = words[index];
+                string word = words[word_count];
                 line = AddWordToLine(line, word);
 
                 if (line.Length >= width)
                 {
-                    if(isLastWord(index, words) && line.Length == width)
+                    if(isLastWord(word_count, words) && line.Length == width)
                     {
                         output += line;
                     }
@@ -84,7 +83,7 @@ namespace Katas
                             line = word;
                         }
                         
-                        if (isLastWord(index, words))
+                        if (isLastWord(word_count, words))
                         {
                             output += line;
                         }

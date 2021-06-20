@@ -37,6 +37,6 @@ E:\CodingDojo\exercises\kata\csharp\Katas\Katas\bin\Debug\xunit.core.xml
 E:\CodingDojo\exercises\kata\csharp\Katas\Katas\bin\Debug\xunit.execution.desktop.xml
 E:\CodingDojo\exercises\kata\csharp\Katas\Katas\obj\Debug\Katas.exe
 E:\CodingDojo\exercises\kata\csharp\Katas\Katas\obj\Debug\Katas.pdb
+E:\CodingDojo\exercises\kata\csharp\Katas\Katas\obj\Debug\Katas.csprojAssemblyReference.cache
 E:\CodingDojo\exercises\kata\csharp\Katas\Katas\obj\Debug\Katas.csproj.CoreCompileInputs.cache
 E:\CodingDojo\exercises\kata\csharp\Katas\Katas\obj\Debug\Katas.csproj.CopyComplete
-E:\CodingDojo\exercises\kata\csharp\Katas\Katas\obj\Debug\Katas.csprojAssemblyReference.cache

@@ -78,6 +78,7 @@
     <Compile Include="Allergies.cs" />
     <Compile Include="BankAccount.cs" />
     <Compile Include="Bob.cs" />
+    <Compile Include="CalcStats.cs" />
     <Compile Include="ChristmasTree.cs" />
     <Compile Include="Clock.cs" />
     <Compile Include="Factorize.cs" />
